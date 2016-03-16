@@ -5,8 +5,8 @@
 // без копозера было так:
 // $yii=dirname(__FILE__).'/yii/framework/yii.php';
 
-$yii=dirname(__FILE__).'/vendor/autoload.php';	//композером сгенерированный файл
-$config=dirname(__FILE__).'/protected/config/main.php';
+$yii=dirname(__FILE__).'/../vendor/autoload.php';	//композером сгенерированный файл
+$config=dirname(__FILE__).'/../protected/config/main.php';
 
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',true);
