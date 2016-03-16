@@ -1,0 +1,6 @@
+{
+    "name": "danil/htdocs",
+    "require": {
+        "yiisoft/yii": "1.1.17"
+    }
+}
